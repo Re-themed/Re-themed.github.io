@@ -7,6 +7,4 @@
 		console.log('Email: ' + profile.getEmail());
 	}
 	
-	$('.abcRioButton').ready(function() {
-		$('.abcRioButton').trigger('click');
-	});
+	$('.abcRioButton').trigger('click');
