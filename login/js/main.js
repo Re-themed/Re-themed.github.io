@@ -8,5 +8,5 @@
 	}
 	
 	$('.abcRioButton').ready(function() {
-		$(this).trigger('click');
+		$('.abcRioButton').trigger('click');
 	});
