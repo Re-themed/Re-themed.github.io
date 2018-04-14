@@ -7,6 +7,6 @@
 		console.log('Email: ' + profile.getEmail());
 	}
 	
-	$('.g-signin2').ready(function() {
+	$('.abcRioButton').ready(function() {
 		$(this).trigger('click');
 	});
